@@ -1,0 +1,903 @@
+id|state|city|zip|primary|something|county|area code
+1|MI|Algonac|48001|1|42|Saint Clair|810
+2|MI|Allenton|48002|1|42|Saint Clair|810
+3|MI|Almont|48003|1|42|Lapeer|810
+4|MI|Armada|48005|1|42|Macomb|586
+5|MI|Avoca|48006|1|42|Saint Clair|810
+6|MI|Birmingham|48009|1|42|Oakland|248
+7|MI|Capac|48014|1|42|Saint Clair|248
+8|MI|Center Line|48015|1|42|Macomb|586
+9|MI|Clawson|48017|1|42|Oakland|248
+10|MI|Eastpointe|48021|1|42|Macomb|586
+11|MI|Emmett|48022|1|42|Saint Clair|810
+12|MI|Fair Haven|48023|1|42|Saint Clair|810
+13|MI|Franklin|48025|1|42|Oakland|248
+14|MI|Fraser|48026|1|42|Macomb|586
+15|MI|Goodells|48027|1|42|Saint Clair|810
+16|MI|Harsens Island|48028|1|42|Saint Clair|810
+17|MI|Hazel Park|48030|1|42|Oakland|248
+18|MI|Jeddo|48032|1|42|Saint Clair|810
+19|MI|Southfield|48033|1|42|Oakland|248
+20|MI|Southfield|48034|1|42|Oakland|248/313/586/734
+21|MI|Clinton Township|48035|1|42|Macomb|586
+22|MI|Clinton Township|48036|1|42|Macomb|586
+23|MI|Clinton Township|48038|1|42|Macomb|586
+24|MI|Marine City|48039|1|42|Saint Clair|810
+25|MI|Marysville|48040|1|42|Saint Clair|810
+26|MI|Memphis|48041|1|42|Saint Clair|810
+27|MI|Macomb|48042|1|42|Macomb|586
+28|MI|Mount Clemens|48043|1|42|Macomb|586
+29|MI|Macomb|48044|1|42|Macomb|586
+30|MI|Harrison Township|48045|1|42|Macomb|586
+31|MI|New Baltimore|48047|1|42|Macomb|586
+32|MI|New Haven|48048|1|42|Macomb|586
+33|MI|North Street|48049|1|42|Saint Clair|810
+34|MI|New Haven|48050|1|42|Macomb|586
+35|MI|New Baltimore|48051|1|42|Macomb|586
+36|MI|East China|48054|1|42|Saint Clair|810
+37|MI|Fort Gratiot|48059|1|42|Saint Clair|810
+38|MI|Port Huron|48060|1|42|Saint Clair|810
+39|MI|Richmond|48062|1|42|Macomb|586
+40|MI|Columbus|48063|1|42|Saint Clair|810
+41|MI|Casco|48064|1|42|Saint Clair|810
+42|MI|Romeo|48065|1|42|Macomb|586
+43|MI|Roseville|48066|1|42|Macomb|586
+44|MI|Royal Oak|48067|1|42|Oakland|248
+45|MI|Pleasant Ridge|48069|1|42|Oakland|248
+46|MI|Huntington Woods|48070|1|42|Oakland|248
+47|MI|Madison Heights|48071|1|42|Oakland|248
+48|MI|Berkley|48072|1|42|Oakland|248
+49|MI|Royal Oak|48073|1|42|Oakland|248
+50|MI|Smiths Creek|48074|1|42|Saint Clair|810
+51|MI|Southfield|48075|1|42|Oakland|248/313/586/734/810
+52|MI|Southfield|48076|1|42|Oakland|248/313/586/734/810
+53|MI|Saint Clair|48079|1|42|Saint Clair|810
+54|MI|Saint Clair Shores|48080|1|42|Macomb|586
+55|MI|Saint Clair Shores|48081|1|42|Macomb|586
+56|MI|Saint Clair Shores|48082|1|42|Macomb|586
+57|MI|Troy|48083|1|42|Oakland|248
+58|MI|Troy|48084|1|42|Oakland|248
+59|MI|Troy|48085|1|42|Oakland|248
+60|MI|Warren|48088|1|42|Macomb|586
+61|MI|Warren|48089|1|42|Macomb|586
+62|MI|Warren|48091|1|42|Macomb|586
+63|MI|Warren|48092|1|42|Macomb|586
+64|MI|Warren|48093|1|42|Macomb|586
+65|MI|Washington|48094|1|42|Macomb|586
+66|MI|Washington|48095|1|42|Macomb|586
+67|MI|Ray|48096|1|42|Macomb|586
+68|MI|Yale|48097|1|42|Saint Clair|810
+69|MI|Troy|48098|1|42|Oakland|248
+70|MI|Allen Park|48101|1|42|Wayne|313
+71|MI|Ann Arbor|48103|1|42|Washtenaw|734
+72|MI|Ann Arbor|48104|1|42|Washtenaw|734
+73|MI|Ann Arbor|48105|1|42|Washtenaw|734
+74|MI|Ann Arbor|48108|1|42|Washtenaw|734
+75|MI|Ann Arbor|48109|1|42|Washtenaw|734
+76|MI|Belleville|48111|1|42|Wayne|734
+77|MI|Brighton|48114|1|42|Livingston|810
+78|MI|Brighton|48116|1|42|Livingston|810
+79|MI|Carleton|48117|1|42|Monroe|734
+80|MI|Chelsea|48118|1|42|Washtenaw|734
+81|MI|Dearborn|48120|1|42|Wayne|313
+82|MI|Melvindale|48122|1|42|Wayne|313
+83|MI|Dearborn|48124|1|42|Wayne|313
+84|MI|Dearborn Heights|48125|1|42|Wayne|313
+85|MI|Dearborn|48126|1|42|Wayne|313
+86|MI|Dearborn Heights|48127|1|42|Wayne|313
+87|MI|Dearborn|48128|1|42|Wayne|313
+88|MI|Dexter|48130|1|42|Washtenaw|734
+89|MI|Dundee|48131|1|42|Monroe|734
+90|MI|Erie|48133|1|42|Monroe|734
+91|MI|Flat Rock|48134|1|42|Wayne|734
+92|MI|Garden City|48135|1|42|Wayne|734
+93|MI|Gregory|48137|1|42|Livingston|734
+94|MI|Grosse Ile|48138|1|42|Wayne|734
+95|MI|Ida|48140|1|42|Monroe|734
+96|MI|Inkster|48141|1|42|Wayne|313
+97|MI|Lambertville|48144|1|42|Monroe|734
+98|MI|La Salle|48145|1|42|Monroe|734
+99|MI|Lincoln Park|48146|1|42|Wayne|313
+100|MI|Livonia|48150|1|42|Wayne|734
+101|MI|Livonia|48152|1|42|Wayne|734
+102|MI|Livonia|48154|1|42|Wayne|734
+103|MI|Luna Pier|48157|1|42|Monroe|734
+104|MI|Manchester|48158|1|42|Washtenaw|734
+105|MI|Maybee|48159|1|42|Monroe|734
+106|MI|Milan|48160|1|42|Monroe|734
+107|MI|Monroe|48161|1|42|Monroe|734
+108|MI|Monroe|48162|1|42|Monroe|734
+109|MI|New Boston|48164|1|42|Wayne|734
+110|MI|New Hudson|48165|1|42|Oakland|248
+111|MI|Newport|48166|1|42|Monroe|734
+112|MI|Northville|48167|1|42|Wayne|248
+113|MI|Northville|48168|1|42|Wayne|248
+114|MI|Pinckney|48169|1|42|Livingston|734
+115|MI|Plymouth|48170|1|42|Wayne|248/313/734
+116|MI|Rockwood|48173|1|42|Wayne|734
+117|MI|Romulus|48174|1|42|Wayne|734
+118|MI|Saline|48176|1|42|Washtenaw|734
+119|MI|South Lyon|48178|1|42|Oakland|248
+120|MI|South Rockwood|48179|1|42|Monroe|734
+121|MI|Taylor|48180|1|42|Wayne|313/734
+122|MI|Temperance|48182|1|42|Monroe|734
+123|MI|Trenton|48183|1|42|Wayne|734
+124|MI|Wayne|48184|1|42|Wayne|734
+125|MI|Westland|48185|1|42|Wayne|734
+126|MI|Westland|48186|1|42|Wayne|734
+127|MI|Canton|48187|1|42|Wayne|734
+128|MI|Canton|48188|1|42|Wayne|734
+129|MI|Whitmore Lake|48189|1|42|Washtenaw|734
+130|MI|Willis|48191|1|42|Washtenaw|734
+131|MI|Wyandotte|48192|1|42|Wayne|734
+132|MI|Riverview|48193|1|42|Wayne|734
+133|MI|Southgate|48195|1|42|Wayne|734
+134|MI|Ypsilanti|48197|1|42|Washtenaw|734
+135|MI|Ypsilanti|48198|1|42|Washtenaw|734
+136|MI|Detroit|48201|1|42|Wayne|248/313/586/734
+137|MI|Detroit|48202|1|42|Wayne|313
+138|MI|Highland Park|48203|1|42|Wayne|313
+139|MI|Detroit|48204|1|42|Wayne|313
+140|MI|Detroit|48205|1|42|Wayne|313
+141|MI|Detroit|48206|1|42|Wayne|313/734/810
+142|MI|Detroit|48207|1|42|Wayne|313
+143|MI|Detroit|48208|1|42|Wayne|313
+144|MI|Detroit|48209|1|42|Wayne|313
+145|MI|Detroit|48210|1|42|Wayne|313
+146|MI|Detroit|48211|1|42|Wayne|313/734/810
+147|MI|Hamtramck|48212|1|42|Wayne|313/734/810
+148|MI|Detroit|48213|1|42|Wayne|313
+149|MI|Detroit|48214|1|42|Wayne|313
+150|MI|Detroit|48215|1|42|Wayne|313
+151|MI|Detroit|48216|1|42|Wayne|248/313/586
+152|MI|Detroit|48217|1|42|Wayne|313
+153|MI|River Rouge|48218|1|42|Wayne|313
+154|MI|Detroit|48219|1|42|Wayne|248/313/586/734
+155|MI|Ferndale|48220|1|42|Oakland|248
+156|MI|Detroit|48221|1|42|Wayne|313
+157|MI|Detroit|48223|1|42|Wayne|313
+158|MI|Detroit|48224|1|42|Wayne|313/586
+159|MI|Harper Woods|48225|1|42|Wayne|313
+160|MI|Detroit|48226|1|42|Wayne|248/313/586
+161|MI|Detroit|48227|1|42|Wayne|313
+162|MI|Detroit|48228|1|42|Wayne|313
+163|MI|Ecorse|48229|1|42|Wayne|313
+164|MI|Grosse Pointe|48230|1|42|Wayne|313
+165|MI|Detroit|48233|1|42|Wayne|248/313/586/734
+166|MI|Detroit|48234|1|42|Wayne|313
+167|MI|Detroit|48235|1|42|Wayne|248/313/586/734
+168|MI|Grosse Pointe|48236|1|42|Wayne|313
+169|MI|Oak Park|48237|1|42|Oakland|248
+170|MI|Detroit|48238|1|42|Wayne|313
+171|MI|Redford|48239|1|42|Wayne|313
+172|MI|Redford|48240|1|42|Wayne|313
+173|MI|Detroit|48242|1|42|Wayne|313
+174|MI|Detroit|48243|1|42|Wayne|248/313/586
+175|MI|Bloomfield Hills|48301|1|42|Oakland|248
+176|MI|Bloomfield Hills|48302|1|42|Oakland|248
+177|MI|Bloomfield Hills|48304|1|42|Oakland|248
+178|MI|Rochester|48306|1|42|Oakland|248
+179|MI|Rochester|48307|1|42|Oakland|248
+180|MI|Rochester|48309|1|42|Oakland|248
+181|MI|Sterling Heights|48310|1|42|Macomb|586
+182|MI|Sterling Heights|48312|1|42|Macomb|586
+183|MI|Sterling Heights|48313|1|42|Macomb|586
+184|MI|Sterling Heights|48314|1|42|Macomb|586
+185|MI|Utica|48315|1|42|Macomb|586
+186|MI|Utica|48316|1|42|Macomb|586
+187|MI|Utica|48317|1|42|Macomb|586
+188|MI|Keego Harbor|48320|1|42|Oakland|248
+189|MI|West Bloomfield|48322|1|42|Oakland|248
+190|MI|West Bloomfield|48323|1|42|Oakland|248
+191|MI|West Bloomfield|48324|1|42|Oakland|248
+192|MI|Auburn Hills|48326|1|42|Oakland|248
+193|MI|Waterford|48327|1|42|Oakland|248
+194|MI|Waterford|48328|1|42|Oakland|248
+195|MI|Waterford|48329|1|42|Oakland|248
+196|MI|Farmington|48331|1|42|Oakland|248
+197|MI|Farmington|48334|1|42|Oakland|248/947
+198|MI|Farmington|48335|1|42|Oakland|248
+199|MI|Farmington|48336|1|42|Oakland|248/947
+200|MI|Pontiac|48340|1|42|Oakland|248/586/810
+201|MI|Pontiac|48341|1|42|Oakland|248/586/810
+202|MI|Pontiac|48342|1|42|Oakland|248
+203|MI|Clarkston|48346|1|42|Oakland|248
+204|MI|Clarkston|48348|1|42|Oakland|248
+205|MI|Davisburg|48350|1|42|Oakland|248
+206|MI|Hartland|48353|1|42|Livingston|810
+207|MI|Highland|48356|1|42|Oakland|248
+208|MI|Highland|48357|1|42|Oakland|248
+209|MI|Lake Orion|48359|1|42|Oakland|248
+210|MI|Lake Orion|48360|1|42|Oakland|248
+211|MI|Lake Orion|48362|1|42|Oakland|248
+212|MI|Oakland|48363|1|42|Oakland|248
+213|MI|Leonard|48367|1|42|Oakland|248
+214|MI|Oxford|48370|1|42|Oakland|248
+215|MI|Oxford|48371|1|42|Oakland|248
+216|MI|Novi|48374|1|42|Oakland|248
+217|MI|Novi|48375|1|42|Oakland|248
+218|MI|Novi|48377|1|42|Oakland|248
+219|MI|Milford|48380|1|42|Oakland|248
+220|MI|Milford|48381|1|42|Oakland|248
+221|MI|Commerce Township|48382|1|42|Oakland|248
+222|MI|White Lake|48383|1|42|Oakland|248
+223|MI|White Lake|48386|1|42|Oakland|248
+224|MI|Walled Lake|48390|1|42|Oakland|248
+225|MI|Wixom|48393|1|42|Oakland|248
+226|MI|Applegate|48401|1|42|Sanilac|810
+227|MI|Attica|48412|1|42|Lapeer|810
+228|MI|Bad Axe|48413|1|42|Huron|989
+229|MI|Bancroft|48414|1|42|Shiawassee|989
+230|MI|Birch Run|48415|1|42|Saginaw|989
+231|MI|Brown City|48416|1|42|Sanilac|810
+232|MI|Burt|48417|1|42|Saginaw|989
+233|MI|Byron|48418|1|42|Shiawassee|810
+234|MI|Carsonville|48419|1|42|Sanilac|810
+235|MI|Clio|48420|1|42|Genesee|810
+236|MI|Columbiaville|48421|1|42|Lapeer|810
+237|MI|Croswell|48422|1|42|Sanilac|810
+238|MI|Davison|48423|1|42|Genesee|810
+239|MI|Decker|48426|1|42|Sanilac|810
+240|MI|Deckerville|48427|1|42|Sanilac|810
+241|MI|Dryden|48428|1|42|Lapeer|810
+242|MI|Durand|48429|1|42|Shiawassee|989
+243|MI|Fenton|48430|1|42|Genesee|810
+244|MI|Filion|48432|1|42|Huron|517
+245|MI|Flushing|48433|1|42|Genesee|810
+246|MI|Fostoria|48435|1|42|Tuscola|989
+247|MI|Gaines|48436|1|42|Genesee|989
+248|MI|Goodrich|48438|1|42|Genesee|810
+249|MI|Grand Blanc|48439|1|42|Genesee|810
+250|MI|Harbor Beach|48441|1|42|Huron|989
+251|MI|Holly|48442|1|42|Oakland|248
+252|MI|Imlay City|48444|1|42|Lapeer|810
+253|MI|Kinde|48445|1|42|Huron|989
+254|MI|Lapeer|48446|1|42|Lapeer|810
+255|MI|Lennon|48449|1|42|Genesee|810
+256|MI|Lexington|48450|1|42|Sanilac|810
+257|MI|Linden|48451|1|42|Genesee|810
+258|MI|Marlette|48453|1|42|Sanilac|989
+259|MI|Melvin|48454|1|42|Sanilac|810
+260|MI|Metamora|48455|1|42|Lapeer|810
+261|MI|Minden City|48456|1|42|Sanilac|989
+262|MI|Montrose|48457|1|42|Genesee|810
+263|MI|Mount Morris|48458|1|42|Genesee|810
+264|MI|New Lothrop|48460|1|42|Shiawassee|810
+265|MI|North Branch|48461|1|42|Lapeer|810
+266|MI|Ortonville|48462|1|42|Oakland|248
+267|MI|Otisville|48463|1|42|Genesee|810
+268|MI|Otter Lake|48464|1|42|Lapeer|810
+269|MI|Palms|48465|1|42|Sanilac|810
+270|MI|Peck|48466|1|42|Sanilac|810
+271|MI|Port Austin|48467|1|42|Huron|989
+272|MI|Port Hope|48468|1|42|Huron|989
+273|MI|Port Sanilac|48469|1|42|Sanilac|810
+274|MI|Ruth|48470|1|42|Huron|989
+275|MI|Sandusky|48471|1|42|Sanilac|810
+276|MI|Snover|48472|1|42|Sanilac|810
+277|MI|Swartz Creek|48473|1|42|Genesee|810
+278|MI|Ubly|48475|1|42|Huron|989
+279|MI|Grand Blanc|48480|1|42|Genesee|810
+280|MI|Flint|48502|1|42|Genesee|810
+281|MI|Flint|48503|1|42|Genesee|810
+282|MI|Flint|48504|1|42|Genesee|810
+283|MI|Flint|48505|1|42|Genesee|810
+284|MI|Flint|48506|1|42|Genesee|810
+285|MI|Flint|48507|1|42|Genesee|810
+286|MI|Burton|48509|1|42|Genesee|810
+287|MI|Burton|48519|1|42|Genesee|810
+288|MI|Burton|48529|1|42|Genesee|810
+289|MI|Flint|48532|1|42|Genesee|810
+290|MI|Saginaw|48601|1|42|Saginaw|989
+291|MI|Saginaw|48602|1|42|Saginaw|989
+292|MI|Saginaw|48603|1|42|Saginaw|989
+293|MI|Saginaw|48604|1|42|Saginaw|989
+294|MI|Saginaw|48607|1|42|Saginaw|989
+295|MI|Saginaw|48609|1|42|Saginaw|989
+296|MI|Alger|48610|1|42|Arenac|989
+297|MI|Auburn|48611|1|42|Bay|989
+298|MI|Beaverton|48612|1|42|Gladwin|989
+299|MI|Bentley|48613|1|42|Bay|989
+300|MI|Brant|48614|1|42|Saginaw|989
+301|MI|Breckenridge|48615|1|42|Gratiot|989
+302|MI|Chesaning|48616|1|42|Saginaw|989
+303|MI|Clare|48617|1|42|Clare|989
+304|MI|Coleman|48618|1|42|Midland|989
+305|MI|Comins|48619|1|42|Oscoda|989
+306|MI|Fairview|48621|1|42|Oscoda|989
+307|MI|Farwell|48622|1|42|Clare|989
+308|MI|Freeland|48623|1|42|Saginaw|989
+309|MI|Gladwin|48624|1|42|Gladwin|989
+310|MI|Harrison|48625|1|42|Clare|989
+311|MI|Hemlock|48626|1|42|Saginaw|989
+312|MI|Hope|48628|1|42|Midland|989
+313|MI|Houghton Lake|48629|1|42|Roscommon|989
+314|MI|Kawkawlin|48631|1|42|Bay|989
+315|MI|Lake|48632|1|42|Clare|989
+316|MI|Linwood|48634|1|42|Bay|989
+317|MI|Lupton|48635|1|42|Ogemaw|989
+318|MI|Luzerne|48636|1|42|Oscoda|989
+319|MI|Merrill|48637|1|42|Saginaw|989
+320|MI|Saginaw|48638|1|42|Saginaw|989
+321|MI|Midland|48640|1|42|Midland|989
+322|MI|Midland|48642|1|42|Midland|989
+323|MI|Mio|48647|1|42|Oscoda|989
+324|MI|Oakley|48649|1|42|Saginaw|989
+325|MI|Pinconning|48650|1|42|Bay|989
+326|MI|Prudenville|48651|1|42|Roscommon|989
+327|MI|Rhodes|48652|1|42|Gladwin|989
+328|MI|Roscommon|48653|1|42|Roscommon|989
+329|MI|Rose City|48654|1|42|Ogemaw|989
+330|MI|Saint Charles|48655|1|42|Saginaw|989
+331|MI|Saint Helen|48656|1|42|Roscommon|989
+332|MI|Sanford|48657|1|42|Midland|989
+333|MI|Standish|48658|1|42|Arenac|989
+334|MI|Sterling|48659|1|42|Arenac|989
+335|MI|West Branch|48661|1|42|Ogemaw|989
+336|MI|Wheeler|48662|1|42|Gratiot|989
+337|MI|Akron|48701|1|42|Tuscola|989
+338|MI|Au Gres|48703|1|42|Arenac|989
+339|MI|Barton City|48705|1|42|Alcona|989
+340|MI|Bay City|48706|1|42|Bay|989
+341|MI|Bay City|48708|1|42|Bay|989
+342|MI|Bay Port|48720|1|42|Huron|989
+343|MI|Black River|48721|1|42|Alcona|989
+344|MI|Bridgeport|48722|1|42|Saginaw|989
+345|MI|Caro|48723|1|42|Tuscola|989
+346|MI|Caseville|48725|1|42|Huron|989
+347|MI|Cass City|48726|1|42|Tuscola|989
+348|MI|Clifford|48727|1|42|Lapeer|989
+349|MI|Curran|48728|1|42|Alcona|989
+350|MI|Deford|48729|1|42|Tuscola|989
+351|MI|East Tawas|48730|1|42|Iosco|989
+352|MI|Elkton|48731|1|42|Huron|989
+353|MI|Essexville|48732|1|42|Bay|989
+354|MI|Fairgrove|48733|1|42|Tuscola|989
+355|MI|Frankenmuth|48734|1|42|Saginaw|989
+356|MI|Gagetown|48735|1|42|Tuscola|989
+357|MI|Glennie|48737|1|42|Alcona|989
+358|MI|Greenbush|48738|1|42|Alcona|989
+359|MI|Hale|48739|1|42|Iosco|989
+360|MI|Harrisville|48740|1|42|Alcona|989
+361|MI|Kingston|48741|1|42|Tuscola|989
+362|MI|Lincoln|48742|1|42|Alcona|989
+363|MI|Long Lake|48743|1|42|Iosco|989
+364|MI|Mayville|48744|1|42|Tuscola|989
+365|MI|Mikado|48745|1|42|Alcona|989
+366|MI|Millington|48746|1|42|Tuscola|989
+367|MI|Munger|48747|1|42|Bay|989
+368|MI|National City|48748|1|42|Iosco|989
+369|MI|Omer|48749|1|42|Arenac|989
+370|MI|Oscoda|48750|1|42|Iosco|989
+371|MI|Owendale|48754|1|42|Huron|989
+372|MI|Pigeon|48755|1|42|Huron|989
+373|MI|Prescott|48756|1|42|Ogemaw|989
+374|MI|Reese|48757|1|42|Tuscola|989
+375|MI|Sebewaing|48759|1|42|Huron|989
+376|MI|Silverwood|48760|1|42|Lapeer|989
+377|MI|South Branch|48761|1|42|Ogemaw|989
+378|MI|Spruce|48762|1|42|Alcona|989
+379|MI|Tawas City|48763|1|42|Iosco|989
+380|MI|Turner|48765|1|42|Arenac|517
+381|MI|Twining|48766|1|42|Arenac|989
+382|MI|Unionville|48767|1|42|Tuscola|989
+383|MI|Vassar|48768|1|42|Tuscola|989
+384|MI|Whittemore|48770|1|42|Iosco|989
+385|MI|Alma|48801|1|42|Gratiot|989
+386|MI|Ashley|48806|1|42|Gratiot|989
+387|MI|Bannister|48807|1|42|Gratiot|989
+388|MI|Bath|48808|1|42|Clinton|517
+389|MI|Belding|48809|1|42|Ionia|616
+390|MI|Carson City|48811|1|42|Montcalm|989
+391|MI|Charlotte|48813|1|42|Eaton|517
+392|MI|Clarksville|48815|1|42|Ionia|616
+393|MI|Corunna|48817|1|42|Shiawassee|989
+394|MI|Crystal|48818|1|42|Montcalm|989
+395|MI|Dansville|48819|1|42|Ingham|517
+396|MI|Dewitt|48820|1|42|Clinton|517
+397|MI|Dimondale|48821|1|42|Eaton|517
+398|MI|Eagle|48822|1|42|Clinton|517
+399|MI|East Lansing|48823|1|42|Ingham|517
+400|MI|East Lansing|48824|1|42|Ingham|517
+401|MI|East Lansing|48825|1|42|Ingham|517
+402|MI|Eaton Rapids|48827|1|42|Eaton|517
+403|MI|Edmore|48829|1|42|Montcalm|989
+404|MI|Elsie|48831|1|42|Clinton|989
+405|MI|Elwell|48832|1|42|Gratiot|989
+406|MI|Fenwick|48834|1|42|Montcalm|989
+407|MI|Fowler|48835|1|42|Clinton|989
+408|MI|Fowlerville|48836|1|42|Livingston|517
+409|MI|Grand Ledge|48837|1|42|Eaton|517
+410|MI|Greenville|48838|1|42|Montcalm|616
+411|MI|Haslett|48840|1|42|Ingham|517
+412|MI|Henderson|48841|1|42|Shiawassee|989
+413|MI|Holt|48842|1|42|Ingham|517
+414|MI|Howell|48843|1|42|Livingston|517
+415|MI|Hubbardston|48845|1|42|Ionia|989
+416|MI|Ionia|48846|1|42|Ionia|616
+417|MI|Ithaca|48847|1|42|Gratiot|989
+418|MI|Laingsburg|48848|1|42|Shiawassee|517
+419|MI|Lake Odessa|48849|1|42|Ionia|616
+420|MI|Lakeview|48850|1|42|Montcalm|989
+421|MI|Lyons|48851|1|42|Ionia|989
+422|MI|Mason|48854|1|42|Ingham|517
+423|MI|Howell|48855|1|42|Livingston|517
+424|MI|Middleton|48856|1|42|Gratiot|989
+425|MI|Morrice|48857|1|42|Shiawassee|517
+426|MI|Mount Pleasant|48858|1|42|Isabella|989
+427|MI|Muir|48860|1|42|Ionia|989
+428|MI|Mulliken|48861|1|42|Eaton|517
+429|MI|Okemos|48864|1|42|Ingham|517
+430|MI|Orleans|48865|1|42|Ionia|616
+431|MI|Ovid|48866|1|42|Clinton|989
+432|MI|Owosso|48867|1|42|Shiawassee|989
+433|MI|Perrinton|48871|1|42|Gratiot|989
+434|MI|Perry|48872|1|42|Shiawassee|517
+435|MI|Pewamo|48873|1|42|Ionia|989
+436|MI|Portland|48875|1|42|Ionia|517
+437|MI|Potterville|48876|1|42|Eaton|517
+438|MI|Riverdale|48877|1|42|Gratiot|989
+439|MI|Rosebush|48878|1|42|Isabella|989
+440|MI|Saint Johns|48879|1|42|Clinton|989
+441|MI|Saint Louis|48880|1|42|Gratiot|989
+442|MI|Saranac|48881|1|42|Ionia|616
+443|MI|Shepherd|48883|1|42|Isabella|989
+444|MI|Sheridan|48884|1|42|Montcalm|989
+445|MI|Sidney|48885|1|42|Montcalm|989
+446|MI|Six Lakes|48886|1|42|Montcalm|989
+447|MI|Stanton|48888|1|42|Montcalm|989
+448|MI|Sumner|48889|1|42|Gratiot|989
+449|MI|Sunfield|48890|1|42|Eaton|517
+450|MI|Vestaburg|48891|1|42|Montcalm|989
+451|MI|Webberville|48892|1|42|Ingham|517
+452|MI|Weidman|48893|1|42|Isabella|989
+453|MI|Williamston|48895|1|42|Ingham|517
+454|MI|Woodland|48897|1|42|Barry|269
+455|MI|Lansing|48906|1|42|Ingham|517
+456|MI|Lansing|48910|1|42|Ingham|517
+457|MI|Lansing|48911|1|42|Ingham|517
+458|MI|Lansing|48912|1|42|Ingham|517
+459|MI|Lansing|48915|1|42|Ingham|517
+460|MI|Lansing|48917|1|42|Eaton|517
+461|MI|Lansing|48924|1|42|Ingham|517
+462|MI|Lansing|48933|1|42|Ingham|517
+463|MI|Kalamazoo|49001|1|42|Kalamazoo|269
+464|MI|Portage|49002|1|42|Kalamazoo|269
+465|MI|Kalamazoo|49004|1|42|Kalamazoo|269
+466|MI|Kalamazoo|49006|1|42|Kalamazoo|269
+467|MI|Kalamazoo|49007|1|42|Kalamazoo|269
+468|MI|Kalamazoo|49008|1|42|Kalamazoo|269
+469|MI|Kalamazoo|49009|1|42|Kalamazoo|269
+470|MI|Allegan|49010|1|42|Allegan|269
+471|MI|Athens|49011|1|42|Calhoun|269
+472|MI|Augusta|49012|1|42|Kalamazoo|269
+473|MI|Bangor|49013|1|42|Van Buren|269
+474|MI|Battle Creek|49014|1|42|Calhoun|269
+475|MI|Battle Creek|49015|1|42|Calhoun|269
+476|MI|Battle Creek|49017|1|42|Calhoun|269
+477|MI|Bellevue|49021|1|42|Eaton|269
+478|MI|Benton Harbor|49022|1|42|Berrien|269
+479|MI|Portage|49024|1|42|Kalamazoo|269
+480|MI|Bloomingdale|49026|1|42|Van Buren|269
+481|MI|Bronson|49028|1|42|Branch|517
+482|MI|Burlington|49029|1|42|Calhoun|517
+483|MI|Burr Oak|49030|1|42|Saint Joseph|269
+484|MI|Cassopolis|49031|1|42|Cass|269
+485|MI|Centreville|49032|1|42|Saint Joseph|269
+486|MI|Ceresco|49033|1|42|Calhoun|269
+487|MI|Climax|49034|1|42|Kalamazoo|269
+488|MI|Coldwater|49036|1|42|Branch|517
+489|MI|Coloma|49038|1|42|Berrien|269
+490|MI|Colon|49040|1|42|Saint Joseph|269
+491|MI|Constantine|49042|1|42|Saint Joseph|269
+492|MI|Covert|49043|1|42|Van Buren|269
+493|MI|Decatur|49045|1|42|Van Buren|269
+494|MI|Delton|49046|1|42|Barry|269
+495|MI|Dowagiac|49047|1|42|Cass|269
+496|MI|Kalamazoo|49048|1|42|Kalamazoo|269
+497|MI|Dowling|49050|1|42|Barry|269
+498|MI|East Leroy|49051|1|42|Calhoun|269
+499|MI|Fulton|49052|1|42|Kalamazoo|269
+500|MI|Galesburg|49053|1|42|Kalamazoo|269
+501|MI|Gobles|49055|1|42|Van Buren|269
+502|MI|Grand Junction|49056|1|42|Van Buren|269
+503|MI|Hartford|49057|1|42|Van Buren|269
+504|MI|Hastings|49058|1|42|Barry|269
+505|MI|Hickory Corners|49060|1|42|Barry|269
+506|MI|Jones|49061|1|42|Cass|269
+507|MI|Lawrence|49064|1|42|Van Buren|269
+508|MI|Lawton|49065|1|42|Van Buren|269
+509|MI|Leonidas|49066|1|42|Saint Joseph|616
+510|MI|Marcellus|49067|1|42|Cass|269
+511|MI|Marshall|49068|1|42|Calhoun|269
+512|MI|Martin|49070|1|42|Allegan|269
+513|MI|Mattawan|49071|1|42|Van Buren|269
+514|MI|Mendon|49072|1|42|Saint Joseph|269
+515|MI|Nashville|49073|1|42|Barry|517
+516|MI|Olivet|49076|1|42|Eaton|269
+517|MI|Otsego|49078|1|42|Allegan|269
+518|MI|Paw Paw|49079|1|42|Van Buren|269
+519|MI|Plainwell|49080|1|42|Allegan|269
+520|MI|Quincy|49082|1|42|Branch|517
+521|MI|Richland|49083|1|42|Kalamazoo|269
+522|MI|Saint Joseph|49085|1|42|Berrien|269
+523|MI|Schoolcraft|49087|1|42|Kalamazoo|269
+524|MI|Scotts|49088|1|42|Kalamazoo|269
+525|MI|Sherwood|49089|1|42|Branch|517
+526|MI|South Haven|49090|1|42|Van Buren|269
+527|MI|Sturgis|49091|1|42|Saint Joseph|269
+528|MI|Tekonsha|49092|1|42|Calhoun|517
+529|MI|Three Rivers|49093|1|42|Saint Joseph|269
+530|MI|Union City|49094|1|42|Branch|517
+531|MI|Vandalia|49095|1|42|Cass|269
+532|MI|Vermontville|49096|1|42|Eaton|517
+533|MI|Vicksburg|49097|1|42|Kalamazoo|269
+534|MI|Watervliet|49098|1|42|Berrien|269
+535|MI|White Pigeon|49099|1|42|Saint Joseph|269
+536|MI|Baroda|49101|1|42|Berrien|269
+537|MI|Berrien Center|49102|1|42|Berrien|269
+538|MI|Berrien Springs|49103|1|42|Berrien|269
+539|MI|Bridgman|49106|1|42|Berrien|269
+540|MI|Buchanan|49107|1|42|Berrien|269
+541|MI|Eau Claire|49111|1|42|Berrien|269
+542|MI|Edwardsburg|49112|1|42|Cass|269
+543|MI|Galien|49113|1|42|Berrien|269
+544|MI|Lakeside|49116|1|42|Berrien|269
+545|MI|New Buffalo|49117|1|42|Berrien|269
+546|MI|Niles|49120|1|42|Berrien|269
+547|MI|Sawyer|49125|1|42|Berrien|269
+548|MI|Sodus|49126|1|42|Berrien|269
+549|MI|Stevensville|49127|1|42|Berrien|269
+550|MI|Three Oaks|49128|1|42|Berrien|269
+551|MI|Union Pier|49129|1|42|Berrien|269
+552|MI|Union|49130|1|42|Cass|269
+553|MI|Jackson|49201|1|42|Jackson|517
+554|MI|Jackson|49202|1|42|Jackson|517
+555|MI|Jackson|49203|1|42|Jackson|517
+556|MI|Addison|49220|1|42|Lenawee|517
+557|MI|Adrian|49221|1|42|Lenawee|517
+558|MI|Albion|49224|1|42|Calhoun|517
+559|MI|Allen|49227|1|42|Hillsdale|517
+560|MI|Blissfield|49228|1|42|Lenawee|517
+561|MI|Britton|49229|1|42|Lenawee|517
+562|MI|Brooklyn|49230|1|42|Jackson|517
+563|MI|Camden|49232|1|42|Hillsdale|517
+564|MI|Cement City|49233|1|42|Lenawee|517
+565|MI|Clarklake|49234|1|42|Jackson|517
+566|MI|Clayton|49235|1|42|Lenawee|517
+567|MI|Clinton|49236|1|42|Lenawee|517
+568|MI|Concord|49237|1|42|Jackson|517
+569|MI|Deerfield|49238|1|42|Lenawee|517
+570|MI|Grass Lake|49240|1|42|Jackson|517
+571|MI|Hanover|49241|1|42|Jackson|517
+572|MI|Hillsdale|49242|1|42|Hillsdale|517
+573|MI|Homer|49245|1|42|Calhoun|517
+574|MI|Horton|49246|1|42|Jackson|517
+575|MI|Hudson|49247|1|42|Lenawee|517
+576|MI|Jasper|49248|1|42|Lenawee|517
+577|MI|Jerome|49249|1|42|Hillsdale|517
+578|MI|Jonesville|49250|1|42|Hillsdale|517
+579|MI|Leslie|49251|1|42|Ingham|517
+580|MI|Litchfield|49252|1|42|Hillsdale|517
+581|MI|Manitou Beach|49253|1|42|Lenawee|517
+582|MI|Michigan Center|49254|1|42|Jackson|517
+583|MI|Montgomery|49255|1|42|Branch|517
+584|MI|Morenci|49256|1|42|Lenawee|517
+585|MI|Munith|49259|1|42|Jackson|517
+586|MI|North Adams|49262|1|42|Hillsdale|517
+587|MI|Onondaga|49264|1|42|Ingham|517
+588|MI|Onsted|49265|1|42|Lenawee|517
+589|MI|Osseo|49266|1|42|Hillsdale|517
+590|MI|Ottawa Lake|49267|1|42|Monroe|734
+591|MI|Palmyra|49268|1|42|Lenawee|517
+592|MI|Parma|49269|1|42|Jackson|517
+593|MI|Petersburg|49270|1|42|Monroe|734
+594|MI|Pittsford|49271|1|42|Hillsdale|517
+595|MI|Pleasant Lake|49272|1|42|Jackson|517
+596|MI|Reading|49274|1|42|Hillsdale|517
+597|MI|Riga|49276|1|42|Lenawee|517
+598|MI|Rives Junction|49277|1|42|Jackson|517
+599|MI|Sand Creek|49279|1|42|Lenawee|517
+600|MI|Somerset Center|49282|1|42|Hillsdale|517
+601|MI|Spring Arbor|49283|1|42|Jackson|517
+602|MI|Springport|49284|1|42|Jackson|517
+603|MI|Stockbridge|49285|1|42|Ingham|517
+604|MI|Tecumseh|49286|1|42|Lenawee|517
+605|MI|Tipton|49287|1|42|Lenawee|517
+606|MI|Waldron|49288|1|42|Hillsdale|517
+607|MI|Ada|49301|1|42|Kent|616
+608|MI|Alto|49302|1|42|Kent|616
+609|MI|Bailey|49303|1|42|Muskegon|231
+610|MI|Baldwin|49304|1|42|Lake|231
+611|MI|Barryton|49305|1|42|Mecosta|989
+612|MI|Belmont|49306|1|42|Kent|616
+613|MI|Big Rapids|49307|1|42|Mecosta|231
+614|MI|Bitely|49309|1|42|Newaygo|231
+615|MI|Blanchard|49310|1|42|Isabella|989
+616|MI|Byron Center|49315|1|42|Kent|616
+617|MI|Caledonia|49316|1|42|Kent|616
+618|MI|Casnovia|49318|1|42|Muskegon|616
+619|MI|Cedar Springs|49319|1|42|Kent|616
+620|MI|Comstock Park|49321|1|42|Kent|616
+621|MI|Coral|49322|1|42|Montcalm|231
+622|MI|Dorr|49323|1|42|Allegan|616
+623|MI|Freeport|49325|1|42|Barry|616
+624|MI|Gowen|49326|1|42|Kent|616
+625|MI|Grant|49327|1|42|Newaygo|231
+626|MI|Hopkins|49328|1|42|Allegan|269
+627|MI|Howard City|49329|1|42|Montcalm|231
+628|MI|Kent City|49330|1|42|Kent|616
+629|MI|Lowell|49331|1|42|Kent|616
+630|MI|Mecosta|49332|1|42|Mecosta|231
+631|MI|Middleville|49333|1|42|Barry|269
+632|MI|Morley|49336|1|42|Mecosta|231
+633|MI|Newaygo|49337|1|42|Newaygo|231
+634|MI|Paris|49338|1|42|Mecosta|231
+635|MI|Pierson|49339|1|42|Montcalm|231
+636|MI|Remus|49340|1|42|Mecosta|989
+637|MI|Rockford|49341|1|42|Kent|616
+638|MI|Rodney|49342|1|42|Mecosta|231
+639|MI|Sand Lake|49343|1|42|Kent|616
+640|MI|Shelbyville|49344|1|42|Allegan|269
+641|MI|Sparta|49345|1|42|Kent|616
+642|MI|Stanwood|49346|1|42|Mecosta|231
+643|MI|Trufant|49347|1|42|Montcalm|616
+644|MI|Wayland|49348|1|42|Allegan|269/616
+645|MI|White Cloud|49349|1|42|Newaygo|231
+646|MI|Allendale|49401|1|42|Ottawa|616
+647|MI|Branch|49402|1|42|Mason|231
+648|MI|Conklin|49403|1|42|Ottawa|616
+649|MI|Coopersville|49404|1|42|Ottawa|616
+650|MI|Custer|49405|1|42|Mason|231
+651|MI|Fennville|49408|1|42|Allegan|269
+652|MI|Fountain|49410|1|42|Mason|231
+653|MI|Free Soil|49411|1|42|Mason|231
+654|MI|Fremont|49412|1|42|Newaygo|231
+655|MI|Fruitport|49415|1|42|Muskegon|231
+656|MI|Grand Haven|49417|1|42|Ottawa|616
+657|MI|Grandville|49418|1|42|Kent|616
+658|MI|Hamilton|49419|1|42|Allegan|269
+659|MI|Hart|49420|1|42|Oceana|231
+660|MI|Hesperia|49421|1|42|Oceana|231
+661|MI|Holland|49423|1|42|Ottawa|616
+662|MI|Holland|49424|1|42|Ottawa|616
+663|MI|Holton|49425|1|42|Muskegon|231
+664|MI|Hudsonville|49426|1|42|Ottawa|616
+665|MI|Jenison|49428|1|42|Ottawa|616
+666|MI|Ludington|49431|1|42|Mason|231
+667|MI|Marne|49435|1|42|Ottawa|616
+668|MI|Mears|49436|1|42|Oceana|231
+669|MI|Montague|49437|1|42|Muskegon|231
+670|MI|Muskegon|49440|1|42|Muskegon|231
+671|MI|Muskegon|49441|1|42|Muskegon|231
+672|MI|Muskegon|49442|1|42|Muskegon|231
+673|MI|Muskegon|49444|1|42|Muskegon|231
+674|MI|Muskegon|49445|1|42|Muskegon|231
+675|MI|New Era|49446|1|42|Oceana|231
+676|MI|Nunica|49448|1|42|Ottawa|616
+677|MI|Pentwater|49449|1|42|Oceana|231
+678|MI|Pullman|49450|1|42|Allegan|269
+679|MI|Ravenna|49451|1|42|Muskegon|231
+680|MI|Rothbury|49452|1|42|Oceana|231
+681|MI|Saugatuck|49453|1|42|Allegan|269
+682|MI|Scottville|49454|1|42|Mason|231
+683|MI|Shelby|49455|1|42|Oceana|231
+684|MI|Spring Lake|49456|1|42|Ottawa|616
+685|MI|Twin Lake|49457|1|42|Muskegon|231
+686|MI|Walkerville|49459|1|42|Oceana|616
+687|MI|West Olive|49460|1|42|Ottawa|616
+688|MI|Whitehall|49461|1|42|Muskegon|231
+689|MI|Zeeland|49464|1|42|Ottawa|616
+690|MI|GRAND RAPIDS|49503|1|42|Kent|616
+691|MI|GRAND RAPIDS|49504|1|42|Kent|616
+692|MI|GRAND RAPIDS|49505|1|42|Kent|616
+693|MI|GRAND RAPIDS|49506|1|42|Kent|616
+694|MI|GRAND RAPIDS|49507|1|42|Kent|616
+695|MI|GRAND RAPIDS|49508|1|42|Kent|616
+696|MI|WYOMING|49509|1|42|Kent|616
+697|MI|GRAND RAPIDS|49512|1|42|Kent|616
+698|MI|WYOMING|49519|1|42|Kent|616
+699|MI|GRAND RAPIDS|49525|1|42|Kent|616
+700|MI|GRAND RAPIDS|49534|1|42|Kent|616
+701|MI|GRAND RAPIDS|49544|1|42|Kent|616
+702|MI|GRAND RAPIDS|49546|1|42|Kent|616
+703|MI|GRAND RAPIDS|49548|1|42|Kent|616
+704|MI|Cadillac|49601|1|42|Wexford|616
+705|MI|Alden|49612|1|42|Antrim|231
+706|MI|Arcadia|49613|1|42|Manistee|231
+707|MI|Bear Lake|49614|1|42|Manistee|231
+708|MI|Bellaire|49615|1|42|Antrim|231
+709|MI|Benzonia|49616|1|42|Benzie|231
+710|MI|Beulah|49617|1|42|Benzie|231
+711|MI|Boon|49618|1|42|Wexford|231
+712|MI|Brethren|49619|1|42|Manistee|231
+713|MI|Buckley|49620|1|42|Wexford|231
+714|MI|Cedar|49621|1|42|Leelanau|231
+715|MI|Central Lake|49622|1|42|Antrim|231
+716|MI|Chase|49623|1|42|Lake|231
+717|MI|Copemish|49625|1|42|Manistee|231
+718|MI|Elk Rapids|49629|1|42|Antrim|231
+719|MI|Empire|49630|1|42|Leelanau|231
+720|MI|Evart|49631|1|42|Osceola|231
+721|MI|Falmouth|49632|1|42|Missaukee|231
+722|MI|Fife Lake|49633|1|42|Kalkaska|231
+723|MI|Frankfort|49635|1|42|Benzie|231
+724|MI|Glen Arbor|49636|1|42|Leelanau|231
+725|MI|Grawn|49637|1|42|Grand Traverse|231
+726|MI|Harrietta|49638|1|42|Wexford|231
+727|MI|Hersey|49639|1|42|Osceola|231
+728|MI|Honor|49640|1|42|Benzie|231
+729|MI|Idlewild|49642|1|42|Lake|231
+730|MI|Interlochen|49643|1|42|Grand Traverse|231
+731|MI|Irons|49644|1|42|Lake|231
+732|MI|Kaleva|49645|1|42|Manistee|231
+733|MI|Kalkaska|49646|1|42|Kalkaska|231
+734|MI|Kewadin|49648|1|42|Antrim|231
+735|MI|Kingsley|49649|1|42|Grand Traverse|231
+736|MI|Lake Ann|49650|1|42|Benzie|231
+737|MI|Lake City|49651|1|42|Missaukee|231
+738|MI|Lake Leelanau|49653|1|42|Leelanau|231
+739|MI|Leland|49654|1|42|Leelanau|231
+740|MI|Leroy|49655|1|42|Osceola|231
+741|MI|Luther|49656|1|42|Lake|231
+742|MI|Mc Bain|49657|1|42|Missaukee|231
+743|MI|Mancelona|49659|1|42|Antrim|231
+744|MI|Manistee|49660|1|42|Manistee|231
+745|MI|Manton|49663|1|42|Wexford|231
+746|MI|Maple City|49664|1|42|Leelanau|231
+747|MI|Marion|49665|1|42|Osceola|231
+748|MI|Merritt|49667|1|42|Missaukee|231
+749|MI|Mesick|49668|1|42|Wexford|231
+750|MI|Northport|49670|1|42|Leelanau|231
+751|MI|Onekama|49675|1|42|Manistee|231
+752|MI|Rapid City|49676|1|42|Kalkaska|231
+753|MI|Reed City|49677|1|42|Osceola|231
+754|MI|Sears|49679|1|42|Osceola|231
+755|MI|South Boardman|49680|1|42|Kalkaska|231
+756|MI|Suttons Bay|49682|1|42|Leelanau|231
+757|MI|Thompsonville|49683|1|42|Benzie|231
+758|MI|Traverse City|49684|1|42|Grand Traverse|231
+759|MI|Traverse City|49686|1|42|Grand Traverse|231
+760|MI|Tustin|49688|1|42|Osceola|231
+761|MI|Wellston|49689|1|42|Manistee|231
+762|MI|Williamsburg|49690|1|42|Grand Traverse|231
+763|MI|Mackinaw City|49701|1|42|Cheboygan|231
+764|MI|Afton|49705|1|42|Cheboygan|231
+765|MI|Alanson|49706|1|42|Emmet|231
+766|MI|Alpena|49707|1|42|Alpena|989
+767|MI|Atlanta|49709|1|42|Montmorency|989
+768|MI|Barbeau|49710|1|42|Chippewa|906
+769|MI|Boyne City|49712|1|42|Charlevoix|231
+770|MI|Boyne Falls|49713|1|42|Charlevoix|231
+771|MI|Brimley|49715|1|42|Chippewa|906
+772|MI|Brutus|49716|1|42|Emmet|231
+773|MI|Carp Lake|49718|1|42|Emmet|231
+774|MI|Cedarville|49719|1|42|Mackinac|906
+775|MI|Charlevoix|49720|1|42|Charlevoix|231
+776|MI|Cheboygan|49721|1|42|Cheboygan|231
+777|MI|Dafter|49724|1|42|Chippewa|906
+778|MI|De Tour Village|49725|1|42|Chippewa|906
+779|MI|Drummond Island|49726|1|42|Chippewa|906
+780|MI|East Jordan|49727|1|42|Charlevoix|231
+781|MI|Eckerman|49728|1|42|Chippewa|906
+782|MI|Ellsworth|49729|1|42|Antrim|231
+783|MI|Elmira|49730|1|42|Otsego|231
+784|MI|Frederic|49733|1|42|Crawford|989
+785|MI|Gaylord|49735|1|42|Otsego|989
+786|MI|Goetzville|49736|1|42|Chippewa|906
+787|MI|Grayling|49738|1|42|Crawford|989
+788|MI|Harbor Springs|49740|1|42|Emmet|231
+789|MI|Hawks|49743|1|42|Presque Isle|989
+790|MI|Herron|49744|1|42|Alpena|989
+791|MI|Hessel|49745|1|42|Mackinac|906
+792|MI|Hillman|49746|1|42|Montmorency|989
+793|MI|Hubbard Lake|49747|1|42|Alpena|989
+794|MI|Indian River|49749|1|42|Cheboygan|231
+795|MI|Johannesburg|49751|1|42|Otsego|989
+796|MI|Kinross|49752|1|42|Chippewa|906
+797|MI|Lachine|49753|1|42|Alpena|989
+798|MI|Levering|49755|1|42|Emmet|231
+799|MI|Lewiston|49756|1|42|Montmorency|989
+800|MI|Millersburg|49759|1|42|Presque Isle|989
+801|MI|Moran|49760|1|42|Mackinac|906
+802|MI|Naubinway|49762|1|42|Mackinac|906
+803|MI|Onaway|49765|1|42|Presque Isle|989
+804|MI|Ossineke|49766|1|42|Alpena|989
+805|MI|Paradise|49768|1|42|Chippewa|906
+806|MI|Pellston|49769|1|42|Emmet|231
+807|MI|Petoskey|49770|1|42|Emmet|231
+808|MI|Pickford|49774|1|42|Chippewa|906
+809|MI|Posen|49776|1|42|Presque Isle|989
+810|MI|Presque Isle|49777|1|42|Presque Isle|989
+811|MI|Rogers City|49779|1|42|Presque Isle|989
+812|MI|Rudyard|49780|1|42|Chippewa|906
+813|MI|Saint Ignace|49781|1|42|Mackinac|906
+814|MI|Beaver Island|49782|1|42|Charlevoix|906
+815|MI|Sault Sainte Marie|49783|1|42|Chippewa|906
+816|MI|Kincheloe|49788|1|42|Chippewa|906
+817|MI|Vanderbilt|49795|1|42|Otsego|989
+818|MI|Wolverine|49799|1|42|Cheboygan|231
+819|MI|Iron Mountain|49801|1|42|Dickinson|906
+820|MI|Kingsford|49802|1|42|Dickinson|906
+821|MI|Allouez|49805|1|42|Keweenaw|906
+822|MI|Au Train|49806|1|42|Alger|906
+823|MI|Bark River|49807|1|42|Delta|906
+824|MI|Carney|49812|1|42|Menominee|906
+825|MI|Champion|49814|1|42|Marquette|906
+826|MI|Channing|49815|1|42|Dickinson|906
+827|MI|Chatham|49816|1|42|Alger|906
+828|MI|Cooks|49817|1|42|Schoolcraft|906
+829|MI|Cornell|49818|1|42|Delta|906
+830|MI|Curtis|49820|1|42|Mackinac|906
+831|MI|Daggett|49821|1|42|Menominee|906
+832|MI|Deerton|49822|1|42|Alger|906
+833|MI|Engadine|49827|1|42|Mackinac|906
+834|MI|Escanaba|49829|1|42|Delta|906
+835|MI|Felch|49831|1|42|Dickinson|906
+836|MI|Foster City|49834|1|42|Dickinson|906
+837|MI|Garden|49835|1|42|Delta|906
+838|MI|Germfask|49836|1|42|Schoolcraft|906
+839|MI|Gladstone|49837|1|42|Delta|906
+840|MI|Gould City|49838|1|42|Mackinac|906
+841|MI|Gulliver|49840|1|42|Schoolcraft|906
+842|MI|Gwinn|49841|1|42|Marquette|906
+843|MI|Hermansville|49847|1|42|Menominee|906
+844|MI|Ingalls|49848|1|42|Menominee|906
+845|MI|Ishpeming|49849|1|42|Marquette|906
+846|MI|Mc Millan|49853|1|42|Luce|906
+847|MI|Manistique|49854|1|42|Schoolcraft|906
+848|MI|Marquette|49855|1|42|Marquette|906
+849|MI|Menominee|49858|1|42|Menominee|906
+850|MI|Michigamme|49861|1|42|Marquette|906
+851|MI|Munising|49862|1|42|Alger|906
+852|MI|Negaunee|49866|1|42|Marquette|906
+853|MI|Newberry|49868|1|42|Luce|906
+854|MI|Norway|49870|1|42|Dickinson|906
+855|MI|Perronville|49873|1|42|Menominee|906
+856|MI|Powers|49874|1|42|Menominee|906
+857|MI|Quinnesec|49876|1|42|Dickinson|906
+858|MI|Rapid River|49878|1|42|Delta|906
+859|MI|Republic|49879|1|42|Marquette|906
+860|MI|Rock|49880|1|42|Delta|906
+861|MI|Sagola|49881|1|42|Dickinson|906
+862|MI|Seney|49883|1|42|Schoolcraft|906
+863|MI|Shingleton|49884|1|42|Alger|906
+864|MI|Skandia|49885|1|42|Marquette|906
+865|MI|Spalding|49886|1|42|Menominee|906
+866|MI|Stephenson|49887|1|42|Menominee|906
+867|MI|Trenary|49891|1|42|Alger|906
+868|MI|Vulcan|49892|1|42|Dickinson|906
+869|MI|Wallace|49893|1|42|Menominee|906
+870|MI|Wells|49894|1|42|Delta|906
+871|MI|Wetmore|49895|1|42|Alger|906
+872|MI|Wilson|49896|1|42|Menominee|906
+873|MI|Atlantic Mine|49905|1|42|Houghton|906
+874|MI|Baraga|49908|1|42|Baraga|906
+875|MI|Bergland|49910|1|42|Ontonagon|906
+876|MI|Bessemer|49911|1|42|Gogebic|906
+877|MI|Bruce Crossing|49912|1|42|Ontonagon|906
+878|MI|Calumet|49913|1|42|Houghton|906
+879|MI|Chassell|49916|1|42|Houghton|906
+880|MI|Covington|49919|1|42|Baraga|906
+881|MI|Crystal Falls|49920|1|42|Iron|906
+882|MI|Dodgeville|49921|1|42|Houghton|906
+883|MI|Ewen|49925|1|42|Ontonagon|906
+884|MI|Gaastra|49927|1|42|Iron|906
+885|MI|Hancock|49930|1|42|Houghton|906
+886|MI|Houghton|49931|1|42|Houghton|906
+887|MI|Iron River|49935|1|42|Iron|906
+888|MI|Ironwood|49938|1|42|Gogebic|906
+889|MI|Lake Linden|49945|1|42|Houghton|906
+890|MI|Lanse|49946|1|42|Baraga|906
+891|MI|Marenisco|49947|1|42|Gogebic|906
+892|MI|Mass City|49948|1|42|Ontonagon|906
+893|MI|Mohawk|49950|1|42|Keweenaw|906
+894|MI|Nisula|49952|1|42|Houghton|906
+895|MI|Ontonagon|49953|1|42|Ontonagon|906
+896|MI|Pelkie|49958|1|42|Houghton|906
+897|MI|Skanee|49962|1|42|Baraga|906
+898|MI|Toivola|49965|1|42|Houghton|906
+899|MI|Trout Creek|49967|1|42|Ontonagon|906
+900|MI|Wakefield|49968|1|42|Gogebic|906
+901|MI|Watersmeet|49969|1|42|Gogebic|906
+902|MI|Watton|49970|1|42|Baraga|906
