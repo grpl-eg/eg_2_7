@@ -55,6 +55,7 @@ sub handler_guts {
             EGI18N => 'OpenILS::WWW::EGWeb::I18NFilter',
             CGI_utf8 => 'OpenILS::WWW::EGWeb::CGI_utf8'
         },
+	EVAL_PERL => 1,
         FILTERS => {
             # Register a dynamic filter factory for our locale::maketext generator
             l => [
