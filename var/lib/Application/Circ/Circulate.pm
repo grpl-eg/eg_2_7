@@ -2645,6 +2645,11 @@ sub do_checkin {
 
     my $needed_for_something = 0; # formerly "needed_for_hold"
 
+    my $sf_use = $self->editor->json_query({ from => ['smart_float.in_use'] });
+    my $smart_float_in_use = $U->is_true($sf_use->[0]->{'smart_float.in_use'}) if $sf_use;
+    my $sf_libs = $self->editor->json_query({ from => ['smart_float.libs', $self->circ_lib] });
+    my $is_smart_float_lib = $U->is_true($sf_libs->[0]->{'smart_float.libs'}) if $sf_libs;
+
     if(!$self->noop) { # /not/ a no-op checkin, capture for hold or put item into transit
 
         if (!$self->remote_hold) {
@@ -2698,7 +2703,8 @@ sub do_checkin {
                 }
             }
  
-            if( $suppress_transit or ( $circ_lib == $self->circ_lib and not ($self->hold_as_transit and $self->remote_hold) ) ) {
+	    if ($smart_float_in_use) { # Begin Smart Float 
+            if( $suppress_transit or ( ($circ_lib == $self->circ_lib and !$is_smart_float_lib) and not ($self->hold_as_transit and $self->remote_hold) ) ) {
                 # copy is where it needs to be, either for hold or reshelving
     
                 $self->checkin_handle_precat();
@@ -2720,6 +2726,47 @@ sub do_checkin {
                     $can_float = $U->is_true($res->[0]->{'evergreen.can_float'}) if $res; 
                 }
                 if ($can_float) { # Yep, floating, stick here
+		    my $sf_dest = $self->editor->json_query({ from => ['smart_float.destination', $self->circ_lib, $self->copy->id] })->[0];
+ 		    $self->copy->circ_lib( [values %$sf_dest]->[0] );
+ 		    $self->update_copy;
+		    $logger->error("SMARTFLOAT: floating checkin lib: ".$self->circ_lib." copy id: ".$self->copy->id." new lib ".[values %$sf_dest]->[0]);
+ 		    if ($self->copy->circ_lib != $self->circ_lib) { # if transit needed
+ 				$self->checkin_build_copy_transit($self->copy->circ_lib);
+                     		return if $self->bail_out;
+                     		$self->push_events(OpenILS::Event->new('ROUTE_ITEM', org => $self->copy->circ_lib));
+ 		    }
+                } else {
+		    $logger->error("SMARTFLOAT: manual float is ".$self->manual_float." copy ".$self->copy->id." circlib is ".$self->copy->circ_lib." float is ".$self->copy->floating->name." checkin lib ".$self->circ_lib);
+                    if ($self->copy->circ_lib != $self->circ_lib) { # if transit needed
+                        $self->checkin_build_copy_transit($self->copy->circ_lib);
+                        return if $self->bail_out;
+                        $self->push_events(OpenILS::Event->new('ROUTE_ITEM', org => $circ_lib));
+                    }
+                }
+            } # end Smart Float
+	    } else {
+	    # smart float not in use
+		if( $suppress_transit or ( $circ_lib == $self->circ_lib and not ($self->hold_as_transit and $self->remote_hold) ) ) {
+                # copy is where it needs to be, either for hold or reshelving
+                $self->checkin_handle_precat();
+                return if $self->bail_out;
+            } else {
+                # copy needs to transit "home", or stick here if it's a floating copy
+                my $can_float = 0;
+                if ($self->copy->floating && ($self->manual_float || !$U->is_true($self->copy->floating->manual)) && !$self->remote_hold) { # copy is potentially floating
+
+                    my $res = $self->editor->json_query(
+                        {   from => [
+                                'evergreen.can_float',
+                                $self->copy->floating->id,
+                                $self->copy->circ_lib,
+                                $self->circ_lib
+                            ]
+                        }
+                    );
+                    $can_float = $U->is_true($res->[0]->{'evergreen.can_float'}) if $res;
+                }
+                if ($can_float) { # Yep, floating, stick here
                     $self->checkin_changed(1);
                     $self->copy->circ_lib( $self->circ_lib );
                     $self->update_copy;
@@ -2731,13 +2778,18 @@ sub do_checkin {
                     $self->push_events(OpenILS::Event->new('ROUTE_ITEM', org => $circ_lib));
                 }
             }
-        }
+        } # end smart float not in use
+      } # end unless needed for something
     } else { # no-op checkin
-        if ($U->is_true( $self->copy->floating )) { # XXX floating items still stick where they are even with no-op checkin?
+      if ($smart_float_in_use) {
+	if ($U->is_true( $self->copy->floating ) and $is_smart_float_lib) { # XXX floating items still stick where they are even with no-op checkin?
             $self->checkin_changed(1);
             $self->copy->circ_lib( $self->circ_lib );
             $self->update_copy;
         }
+      }else{
+	# smart float not in use
+      }
     }
 
     if($self->claims_never_checked_out and 
