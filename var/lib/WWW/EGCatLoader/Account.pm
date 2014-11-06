@@ -1033,6 +1033,11 @@ sub attempt_hold_placement {
         }
     }
 
+    # apply suspend if requested at hold placement time
+    if ($cgi->param('hold_suspend')){
+        $ctx->{frozen} = 't';
+    }
+
     my $method = 'open-ils.circ.holds.test_and_create.batch';
 
     if ($cgi->param('override')) {
