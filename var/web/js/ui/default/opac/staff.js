@@ -95,6 +95,7 @@ function staff_hold_usr_barcode_changed(isload) {
 function staff_hold_usr_barcode_changed2(
     isload, only_settings, barcode, cur_hold_barcode, load_info) {
 
+    
     if(load_info == false || load_info == undefined) {
         document.getElementById('patron_name').innerHTML = '';
         document.getElementById("patron_usr_barcode_not_found").style.display = '';
@@ -133,6 +134,8 @@ function staff_hold_usr_barcode_changed2(
     update_elements = document.getElementsByName('email_address');
     for(var i in update_elements) update_elements[i].textContent = load_info.user_email;
     if(!document.getElementById('hold_usr_is_requestor').checked && document.getElementById('hold_usr_input').value) {
+	//GRPL staff privacy div
+	document.getElementById('staff_privacy').style.visibility='visible';
         document.getElementById('patron_name').innerHTML = load_info.patron_name;
         document.getElementById("patron_usr_barcode_not_found").style.display = 'none';
     }
