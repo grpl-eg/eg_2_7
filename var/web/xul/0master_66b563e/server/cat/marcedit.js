@@ -41,6 +41,7 @@ var tag_menu;
 var p;
 var auth_pages = {};
 var show_auth_menu = false;
+var usr_settings;
 
 var _fixed_field_values = {}, _fixed_field_context_menus = {};
 var _fixed_field_anonymous_func_counter = 0;
@@ -285,6 +286,10 @@ function my_init() {
             req.open('POST',window.xulG.record.url,false);
             req.send(null);
             window.xulG.record.marc = req.responseText.replace(xmlDeclaration, '');
+	//GRPL: load the usr_settings, but only if we have an existing record, not a brand new one
+ 		JSAN.use('util.network');
+ 		var network = new util.network();
+ 		usr_settings = network.simple_request('FM_AUS_RETRIEVE',[ses()]);
         }
 
         xml_record = new XML( window.xulG.record.marc );
