@@ -30,7 +30,7 @@
 
 <div id="result_table_div">
             <div class="facet_sidebar">
-                [%# INCLUDE "opac/parts/staff_saved_searches.tt2" %]
+                [% INCLUDE "opac/parts/staff_saved_searches.tt2" %]
                 [% INCLUDE 'opac/parts/result/facets.tt2' %]
             </div>
             <div class="result_block">
@@ -43,6 +43,23 @@
                             #IF CGI.param('detail_record_view');
                             #    attrs.title = attrs.title_extended;
                             #END;
+                            # note: rec.id refers to the record identifier, regardless
+                            # of the type of record. i.e. rec.id = mmr_id ? mmr_id : bre_id
+                            IF rec.mmr_id;
+                                IF rec.mr_constituent_count > 1;
+                                    # metarecords link to record list page
+                                    record_url = mkurl(ctx.opac_root _ '/results',
+                                        {metarecord => rec.mmr_id}, ['page']);
+                                ELSE;
+                                    # for MR, bre_id refers to the master and in
+                                    # this case, only, record
+                                    record_url = mkurl(ctx.opac_root _ '/record/' _ rec.bre_id);
+                                END;
+                                hold_type = 'M';
+                            ELSE;
+                                record_url = mkurl(ctx.opac_root _ '/record/' _ rec.bre_id);
+                                hold_type = 'T';
+                            END;
                     -%]
                         <tr class="result_table_row">
 
@@ -73,6 +90,11 @@
                                             </td>
 
                                             <td id="title_box" class='result_metadata' >
+                                                    [% IF rec.mmr_id %]
+                                                    <abbr class="unapi-id"
+                                                      title='tag:[% ctx.hostname %],[% date.format(date.now, '%Y') %]:metabib-metarecord/[% rec.mmr_id %]'>
+                                                    </abbr>
+						    [% END %]
                                                 <div class="bold long_title" >
                                                     <a name='record_[% rec.id %]' name='item_title'
                                                         href="[% mkurl(ctx.opac_root _ '/record/' _ rec.id) %]"
@@ -85,6 +107,27 @@
                                                         [% HTML.attributes(title => l('Display record details for "[_1]"', attrs.title)) %]
                                                         class='search_link'>[% attrs.title | html %]</a>
 						</div>
+                                                     [% IF rec.mr_constituent_count.defined && rec.mr_constituent_count > 1 %]
+                                                     <span title="[% l('This group contains [_1] records', rec.mr_constituent_count) %]">
+                                                      ([% rec.mr_constituent_count %])
+                                                     </span>
+                                                     [% END %]						
+[%-
+FOR entry IN attrs.graphic_titles;
+    FOR alt IN entry.graphic;
+        diratt = "";
+        IF alt.dir;
+            diratt = ' dir="' _ alt.dir _ '"';
+        END;
+-%]
+<div class="graphic880"[% diratt %]>
+    [% alt.value | html %]
+</div>
+[%-
+    END;
+END;
+-%]
+
                                                     <div>
                                                         <em><a title="[% l("Perform an Author Search") %]"
                                                                 name='item_author'

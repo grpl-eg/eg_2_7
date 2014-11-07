@@ -1074,19 +1074,20 @@ div.adv_search_available {
     border-top-right-radius: 5px;
     font-weight:bold;
     color:[% css_colors.text_invert %];
-    padding-top:4px;
+    padding-top:2px;
 }
 
 .facet_box_temp .header .title {
     float:left;
-    padding-top:6px;
+    padding-top:2px;
     padding-left:12px;
 }
 
 .facet_box_temp .header a.button {
     float:right;
-    padding: 0 2px 2px 2px;
+    padding: 0 1px 1px 1px;
     color:[% css_colors.text_invert %];
+    margin-top: 1px;
 }
 
 .facet_box_wrapper .box_wrapper .box {
