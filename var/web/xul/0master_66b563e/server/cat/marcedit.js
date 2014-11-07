@@ -162,6 +162,7 @@ function xml_escape_unicode ( str ) {
 }
 
 function wrap_long_fields (node) {
+    if (usr_settings && usr_settings['staff_client.marcedit.no_wrap']) return;
     var text_size = dojo.attr(node, 'size');
     var hard_width = 100; 
     if (text_size > hard_width) {
