@@ -15,6 +15,27 @@ button, input {
     font-size: [% css_fonts.size_base %];
 }
 
+#logout-btn {
+        margin-right: 27px;
+        margin-left: 848px;
+}
+
+#logout-btn a {
+
+    text-align: center;
+    vertical-align: middle;
+    display: block;
+    padding: 0px 0px 5px 0px;
+    -moz-border-radius: 0px 0px 0px 0px;
+    border-radius: 0px 00px 10px 10px;
+    font-weight: bold;
+    background: #06357a;
+    font-weight: bold;
+    text-decoration: none;
+    color: #f38f1d;
+}
+
+
 img {
     border: none;
 }
