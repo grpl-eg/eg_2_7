@@ -1279,15 +1279,26 @@ sub _hold_status {
     if ($hold->current_shelf_lib and $hold->current_shelf_lib ne $hold->pickup_lib) {
         return 8;
     }
-    return 1 unless $hold->current_copy;
 
     my $copy = $hold->current_copy;
+
+    if ($hold->hold_type eq 'C') {
+        $copy = $e->retrieve_asset_copy($hold->target)
+            or return $e->event;
+    }
+
+    if (ref $copy) {
+      return 9 if ($copy->status =~ /111|112|113|114/);
+    }
+
+    return 1 unless $hold->current_copy;
+
+    $copy =  $hold->current_copy;
     unless( ref $copy ) {
         $copy = $e->retrieve_asset_copy($hold->current_copy)
             or return $e->event;
     }
 
-    return 9 if ($copy->status =~ /111|112|113|114/);
     return 2 unless $hold->capture_time;
 
     return 3 if $copy->status == OILS_COPY_STATUS_IN_TRANSIT;
