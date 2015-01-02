@@ -256,6 +256,25 @@ patron.summary.prototype = {
                             };
                         }
                     ],
+                   'llc_fine_box' : [
+                       ['render'],
+                            function(e) {
+                                 return function() {
+                                       e.setAttribute('value', show_llc_fines(obj.patron.card().barcode()));
+                                 };
+                           }
+
+                   ],
+                   'llc_info_link' : [
+                       ['render'],
+                            function(e) {
+                                 return function() {
+                                       e.setAttribute('value', 'LLC Info');
+                                       e.setAttribute('onclick', 'try {fetch_llc('+obj.patron.card().barcode()+');}catch(E){alert(E);}');
+                                 };
+                           }
+
+                   ],
                     'patron_credit' : [
                         ['render'],
                         function(e) {
@@ -575,12 +594,17 @@ patron.summary.prototype = {
                         ['render'],
                         function(e) {
                             return function() { 
+			//GRPL: signature note
+     				var sig_on_file = '';
+     				if (obj.patron.photo_url())
+     					sig_on_file = ' - Signature on file';
+
                                 util.widgets.set_text(e,
                                     patronStrings.getString('staff.patron.summary.expires_on') + ' ' + (
                                         obj.patron.expire_date() ?
                                         util.date.formatted_date( obj.patron.expire_date(), '%{localized_date}' ) :
                                         patronStrings.getString('staff.patron.field.unset') 
-                                    )
+                                    )+' '+sig_on_file
                                 );
                             };
                         }
@@ -1166,5 +1190,25 @@ patron.summary.prototype = {
         }
     }
 }
+
+function show_llc_fines(bc){
+          var fine = null;
+          var result = null;
+
+          fine = new XMLHttpRequest();
+
+           fine.open( "GET", "/cgi-bin/utils/llc_fines.cgi?bc=" + bc, false )
+           fine.onreadystatechange = function() {
+                if (fine.readyState == 4) {
+                    result = fine.responseText;
+                }
+            }
+            fine.send(null);
+
+            if (fine.responseText)
+                return fine.responseText+' (LLC)';
+
+}
+
 
 dump('exiting patron.summary.js\n');

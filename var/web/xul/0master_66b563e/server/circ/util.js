@@ -1962,9 +1962,6 @@ circ.util.hold_columns = function(modify,params) {
                     case 8:
                         return document.getElementById('circStrings').getString('staff.circ.utils.hold_status.8');
                         break;
-                    case 9:
-                        return document.getElementById('circStrings').getString('staff.circ.utils.hold_status.9');
-                        break;
                     default:
                         return my.status;
                         break;
